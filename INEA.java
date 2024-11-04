@@ -9,6 +9,10 @@ class IneaApp {
         char a;
         String nombre;
         b = 0;
+
+//hash para generar la contraseña
+        int seg[5];
+        seg[2] = 1523;
          
      System.out.print("ingresa tu nombre");
      nombre = califica.nextLine();
